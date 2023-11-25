@@ -1,0 +1,59 @@
+.name_input_css{
+    padding: 10px;
+    background-color: orange;
+    color: aliceblue;
+    margin-right: 5px;
+    border-radius: 15px;
+}
+
+.date_css {
+    padding: 10px;
+    background-color: orange;
+    color: aliceblue;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.add_css {
+     padding: 17px;
+     border-radius: 20px;
+     background-color: grey;
+     cursor: pointer;
+}
+
+.delete_css {
+    padding: 15px;
+    background-color: yellow ;
+    color: green;
+    left: 50%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.container_css {
+    position: relative;
+    left: 30%;
+    background: linear-gradient(
+    45deg,
+    rgba(224, 20, 20, 1) 30%,
+    rgba(13, 7, 179, 1) 84%
+  );
+    width: 700px;
+    /* height: 500px; */
+    left: 30%;
+    border-radius: 20px;
+
+ 
+}
+.todo_class{
+    position: relative;
+    left: 50%;
+    font-family: cambria;
+    font-weight: 200;
+}
+
+.container2_css {
+    position: relative;
+    left: 20%;
+    
+    
+}
