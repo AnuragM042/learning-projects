@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="11_Spotify.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src ="11_logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+       
+    </nav>
+    <div class="container">
+        
+        <div class="songList"><h1>Best of Songs</h1>
+            <div>
+            <div class="songItem SongID" id="0"></div><p class="songName">Bekhayalii song     <i class="fa-solid fa-play" id="Bekhayali"></i>
+              </p>
+            <div class="songItem2 SongID" id="1"></div><p class="songName">Kaise hua         <i class="fa-solid fa-play" id="Kaisehuab"></i></p>
+            <div class="songItem3 SongID" id="2"></div><p class="songName"> Mere Sohneya      <i class="fa-solid fa-play" id="MereSoneya"></i>
+            </p>
+             <div class="songItem4 SongID" id="3"> </div><p class="songName">Tera Ban jaunga <i class="fa-solid fa-play" id="TeraBan"></i>
+            </p>
+            </div>
+        </div>
+        <div class="SongBanner"></div>
+    </div>
+
+    <div class="Bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- <i class="fa-solid fa-forward " id="next"></i>
+            <i class="fa-solid fa-play" id="masterPlay"></i>         
+            <i class="fa-solid fa-backward"></i>
+              -->
+        </div>
+        <div>
+        <div class="songInfo" id="gif">
+            <img src="11_bottom.gif" alt="" width="200px">
+        </div>
+     
+    </div>
+    <script src="11_Spotify.js"></script>
+    <script src="https://kit.fontawesome.com/48c5ab5c2e.js" crossorigin="anonymous"></script>
+</body>
+</html>
